@@ -180,7 +180,7 @@ aside#sidebar2 .quote input, aside#sidebar2 .quote textarea{
 article#main-col{
   float:left;
   width:50%;
-  text-align:center;
+  text-align: center;
 }
 
 ul#services li{
