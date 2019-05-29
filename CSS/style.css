@@ -253,3 +253,11 @@ footer{
 
 
 }
+
+canvas{
+  margin-left: 10px;
+  background-color: #cccccc;
+  width: 45%;
+  height: 45%;
+
+}
