@@ -46,6 +46,7 @@ ul{
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 header{
@@ -156,6 +157,12 @@ newsletter input[type="email"]{
   width: 200px;
 }
 
+.dark .box img{
+  height: 200px;
+  width: 200px;
+  align: center;
+}
+
 aside#sidebar{
   float: right;
   width: 50%;
@@ -183,12 +190,23 @@ article#main-col{
   text-align: center;
 }
 
+article#main-col .box img{
+  height: 200px;
+  width: 200px;
+  align: center;
+  margin-top: 25px;
+}
+
 ul#services li{
   list-style: none;
   padding: 20px;
   border: #cccccc solid 1px;
   margin-bottom: 5px;
   background: #e6e6e6;
+}
+
+ul#services h3{
+  align:center;
 }
 
 footer{
@@ -218,11 +236,11 @@ footer{
   header{
     padding-bottom: 20px;
   }
-  
+
   iframe{
     width: 90%;
   }
-  
+
   aside#sidebar2{
     position: relative;
     text-align: center;
@@ -257,8 +275,7 @@ footer{
 
 canvas{
   margin-left: 10px;
-  background-color: #000000;
+  background-color: #cccccc;
   width: 45%;
   height: 45%;
-
 }
