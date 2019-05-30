@@ -6,14 +6,14 @@
     <meta name="description" content="Webdesign is hype">
     <meta name="keywords" content="My webstie is dope">
     <meta name="author" content="Jordan Valentine">
-    <title>JV Games | Videos</title>
+    <title>JV Web Design | Videos</title>
     <link rel="stylesheet" href="./CSS/style.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Jordan Valentine</span> Games</h1>
+          <h1><span class="highlight">Jordan Valentine</span> Web Design</h1>
         </div>
         <nav>
           <ul>
@@ -39,7 +39,7 @@
     <section id="main">
       <div class="container">
         <article id="main-col">
-          <h1 class="page-title">Videos</h1>
+          <h1 class="page-title">Here are some of my YouTube Videos</h1>
           <ul id="services">
             <li>
               <h3>Video 1</h3>
@@ -66,18 +66,18 @@
         <aside id="sidebar2">
           <div class="dark">
             <h3>Suggestions?</h3>
-            <form class="quote">
+            <form class="quote" method="post" action="send_mail.php">
   						<div>
   							<label>Name</label><br>
-  							<input type="text" placeholder="Name">
+  							<input type="text" name="first_name" placeholder="Name" required>
   						</div>
   						<div>
   							<label>Email</label><br>
-  							<input type="email" placeholder="Email Address">
+  							<input type="email"name="email_address" placeholder="Email Address">
   						</div>
   						<div>
   							<label>Message</label><br>
-  							<textarea placeholder="Message"></textarea>
+  							<textarea placeholder="Message"name="comments" maxlength="500"></textarea>
   						</div>
   						<button class="button_2" type="submit">Send</button>
 					</form>
@@ -88,7 +88,7 @@
     </section>
 
     <footer>
-      <p>JV GAMES, Copyright &copy; 2019</p>
+      <p>JV Web Design, Copyright &copy; 2019</p>
     </footer>
 
   </body>
