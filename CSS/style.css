@@ -157,6 +157,10 @@ newsletter input[type="email"]{
   width: 200px;
 }
 
+#boxes .box h2{
+  margin-top: 20px;
+}
+
 .dark .box img{
   height: 200px;
   width: 200px;
@@ -231,7 +235,7 @@ footer{
     text-align: center;
     width:100%;
   }
-  
+
   #boxes .box{
     float:none;
     text-align: center;
