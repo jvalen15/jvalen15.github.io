@@ -261,10 +261,6 @@ footer{
     width:100%;
   }
 
-  header #branding{
-    padding-top: 20px;
-  }
-
   #boxes .box{
     float:none;
     text-align: center;
@@ -272,8 +268,9 @@ footer{
     margin-left:20px;
   }
 
-  header{
+  header a{
     padding-bottom: 20px;
+    font-size: 90%;
   }
 
   iframe{
