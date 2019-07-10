@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Webdesign is hype">
+    <meta name="keywords" content="My webstie is dope">
+    <meta name="author" content="Jordan Valentine">
+    <title>JV Web Design | Love Notes</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Jordan Valentine</span> Web Design</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="games.html">Games</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li class = "current"><a href="lovenotes.html">Love Notes</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="newsletter">
+    <div class="container">
+      <h1>These are my love notes for my wonderful girlfriend.</h1>
+    </div>
+
+  </section>
+
+  <section id="main">
+    <div class="container">
+
+      <article id="main-col">
+        <h1 class="page-title">Love Note: 7/10/2019</h1>
+        <div class="box">
+          <h2>Enter password and click heart to read: <input id='password' type='password'  /></h2>
+          <a href="./Love Notes/7_10_2019.html" onclick="javascript:return validatePass()"><img src="./img/lovenote1.jpg"></a>
+          <script>
+            function validatePass(){
+              if(document.getElementById('password').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
+
+    </div>
+  </section>
+
+    <footer>
+      <p>JV Web Design, Copyright &copy; 2019</p>
+    </footer>
+
+  </body>
+</html>
