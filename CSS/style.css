@@ -53,7 +53,7 @@ header{
   background: #000000;
   color:#ffffff;
   padding-top:10px;
-  min-height:70px;
+  min-height:100px;
   border-bottom: #00FFFF 3px solid;
 }
 
@@ -268,15 +268,20 @@ footer{
     margin-left:20px;
   }
 
+  header{
+    height: 100%;
+  }
+
   header a{
     padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin: 10px;
+    margin-top: 10px;
 
+  }
+
+  header li{
+    margin: 10px;
+    margin-top: 10px;
   }
 
   iframe{
