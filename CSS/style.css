@@ -261,6 +261,10 @@ footer{
     width:100%;
   }
 
+  header #branding{
+    padding-top: 20px;
+  }
+
   #boxes .box{
     float:none;
     text-align: center;
