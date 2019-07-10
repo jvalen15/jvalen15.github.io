@@ -270,7 +270,11 @@ footer{
 
   header a{
     padding-bottom: 20px;
-    font-size: 90%;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+
   }
 
   iframe{
