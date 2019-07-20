@@ -109,6 +109,24 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Note: 7/20/2019</h1>
+        <div class="box">
+          <h2>Enter password and click butterfly to read: <input id='password5' type='password'  /></h2>
+          <a href="./Love Notes/7_20_2019.html"target="blank" onclick="javascript:return validatePass5()"><img src="./img/butterfly blue animation gif 130 milisecond.gif"></a>
+          <script>
+            function validatePass5(){
+              if(document.getElementById('password5').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
 
     </div>
   </section>
