@@ -284,6 +284,11 @@ footer{
     width: 90%;
   }
 
+  video{
+    height: 100%;
+    width: 100%;
+  }
+
   aside#sidebar2{
     position: relative;
     text-align: center;
