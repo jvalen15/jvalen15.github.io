@@ -246,6 +246,11 @@ footer{
   text-align: center;
 }
 
+video{
+  width: 100% !important;
+  height: auto !important;
+}
+
 /*Media Queries*/
 
 @media(max-width: 768px) {
@@ -282,11 +287,6 @@ footer{
 
   iframe{
     width: 90%;
-  }
-
-  video{
-    width: 100% !important;
-    height: auto !important;
   }
 
   aside#sidebar2{
