@@ -285,8 +285,8 @@ footer{
   }
 
   video{
-    height: 100%;
-    width: 100%;
+    width: 100% !important;
+    height: auto !important;
   }
 
   aside#sidebar2{
