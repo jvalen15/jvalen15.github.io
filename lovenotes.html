@@ -163,6 +163,24 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 8/06/2019</h1>
+        <div class="box">
+          <h2>Enter password and click the "Hug Me" to read: <input id='password8' type='password'  /></h2>
+          <a href="./Love Notes/8_06_2019.html"target="blank" onclick="javascript:return validatePass8()"><img src="./img/hugs.jpg"></a>
+          <script>
+            function validatePass8(){
+              if(document.getElementById('password8').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
 
     </div>
   </section>
