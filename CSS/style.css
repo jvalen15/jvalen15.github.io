@@ -208,6 +208,10 @@ aside#sidebar2{
 
 }
 
+iframe{
+  width: 100%;
+}
+
 aside#sidebar2 .quote input, aside#sidebar2 .quote textarea{
   width:90%;
   padding:5px;
@@ -285,9 +289,7 @@ video{
     margin-top: 2px;
   }
 
-  iframe{
-    width: 90%;
-  }
+
 
   aside#sidebar2{
     position: relative;
@@ -315,12 +317,6 @@ video{
     margin-bottom: 5px;
   }
 }
-
-@media(max-width: 1536px) {
-
-  iframe{
-    width: 100%;
-  }
 
 
 }
