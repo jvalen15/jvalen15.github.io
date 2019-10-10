@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Web-design is hype">
+    <meta name="keywords" content="My website is dope">
+    <meta name="author" content="Jordan Valentine">
+    <title>JV Web Design | 10/09/2019</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <section id="showcaselove">
+      <div class="container">
+        <h1>10/09/2019</h1>
+        <p>Dear, Cool Jules <br><br>
+          This is a love letter from the tinkiest bubby of them all. Every tinky bubby strives to be as tinky as I am, so you
+          should be honored to even be in the presence of my tinkiness. Thank you for never calling my breath tinky in the morning! You're
+          always so sweet to me, my lava. I cannot wait to cuddle you this weekend!!! This Love Letter is going to be like no other!!! Down below
+          you have the choice to pick between four different authors of some nice love quotes that I feel are so sweet and so "us". Well, get to it bubby!
+
+          <br><br>
+
+          <button class="quotes" onclick="myQuote1()">Alfred Tennyson</button>
+          <button class="quotes" onclick="myQuote2()">Harry Burns</button>
+          <button class="quotes" onclick="myQuote3()">Woody Allen</button>
+          <button class="quotes" onclick="myQuote4()">Joseph Campbell</button>
+
+          <p id="quote1"></p>
+          <p id="quote2"></p>
+          <p id="quote3"></p>
+          <p id="quote4"></p>
+
+        <br><br>
+
+        <p>Love, The Tinkster</p>
+      </div>
+    </section>
+    <script>
+      function myQuote1()
+      {
+        document.getElementById("quote1").innerHTML = "\"If I had a flower for every time I thought of you… I could walk through my garden forever.\" - Alfred Tennyson";
+      }
+
+      function myQuote2()
+      {
+        document.getElementById("quote2").innerHTML = "\"When you realize you want to spend the rest of your life with somebody, you want the rest of your life to start as soon as possible.\" - Harry Burns";
+      }
+
+      function myQuote3()
+      {
+        document.getElementById("quote3").innerHTML = "\"The heart wants what it wants. There’s no logic to these things. You meet someone and you fall in love and that’s that.\" - Woody Allen";
+      }
+
+      function myQuote4()
+      {
+        document.getElementById("quote4").innerHTML = "\"Love is a friendship set to music.\" - Joseph Campbell";
+      }
+    </script>
+    <footer>
+      <p>JV Web Design, Copyright &copy; 2019</p>
+    </footer>
+  </body>
+</html>
