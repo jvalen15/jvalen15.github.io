@@ -9,7 +9,6 @@ body{
   width: 90%;
   margin:auto;
   overflow:hidden;
-
 }
 
 
@@ -243,6 +242,7 @@ aside#sidebar2{
   margin-top: 280px;
   top: 15px;
   right: 0px;
+
 }
 
 iframe{
