@@ -176,6 +176,16 @@ header a:hover{
   color: #000000;
 }
 
+#showcaselove h2{
+  font-size: 50px;
+  color: #000000;
+}
+
+#showcaselove img{
+  height: 25%;
+  width: 25%;
+}
+
 #newsletter{
   padding:15px;
   color: #ffffff;
