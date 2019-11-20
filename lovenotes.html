@@ -451,6 +451,24 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 11/20/2019</h1>
+        <div class="box">
+          <h2>Enter password and click the picture of us to read: <input id='password24' type='password'  /></h2>
+          <a href="./Love Notes/11_20_2019.html"target="blank" onclick="javascript:return validatePass24()"><img src="./img/koala.jpg"></a>
+          <script>
+            function validatePass24(){
+              if(document.getElementById('password24').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
 
     </div>
   </section>
