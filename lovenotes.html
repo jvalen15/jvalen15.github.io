@@ -613,6 +613,25 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 1/21/2020</h1>
+        <div class="box">
+          <h2>Enter password and click the picture of minion to read: <input id='password33' type='password'  /></h2>
+          <a href="./Love Notes/1_21_2020.html"target="blank" onclick="javascript:return validatePass33()"><img src="./img/minion.jpg"></a>
+          <script>
+            function validatePass33(){
+              if(document.getElementById('password33').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
+
 
     </div>
   </section>
