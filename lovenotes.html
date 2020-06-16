@@ -918,8 +918,28 @@
           </script>
         </div>
       </article>
+
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 6/16/2020</h1>
+        <div class="box">
+          <h2>Enter password and click the picture of the lovers to read: <input id='password50' type='password'  /></h2>
+          <a href="./Love Notes/6_16_2020.html"target="blank" onclick="javascript:return validatePass50()"><img src="./img/kissy.jpg"></a>
+          <script>
+            function validatePass50(){
+              if(document.getElementById('password50').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
     </div>
   </section>
+
 
     <footer>
       <p>JV Web Design, Copyright &copy; 2019</p>
