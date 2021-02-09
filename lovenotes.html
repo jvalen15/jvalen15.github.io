@@ -992,13 +992,31 @@
       </article>
 
       <article id="main-col">
-        <h1 class="page-title">Love Letter: 2/09/2021</h1>
+        <h1 class="page-title">Love Letter: 10/23/2020</h1>
         <div class="box">
-          <h2>Enter password and click the picture of your fav flower to read: <input id='password54' type='password'  /></h2>
-          <a href="./Love Notes/2_09_2021.html"target="blank" onclick="javascript:return validatePass54()"><img src="./img/rose.jpg"></a>
+          <h2>Enter password and click the picture of the happy gator to read: <input id='password54' type='password'  /></h2>
+          <a href="./Love Notes/10_23_2020.html"target="blank" onclick="javascript:return validatePass54()"><img src="./img/happygator.png"></a>
           <script>
             function validatePass54(){
               if(document.getElementById('password54').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 2/09/2021</h1>
+        <div class="box">
+          <h2>Enter password and click the picture of your fav rose to read: <input id='password55' type='password'  /></h2>
+          <a href="./Love Notes/2_09_2021.html"target="blank" onclick="javascript:return validatePass55()"><img src="./img/rose.jpg"></a>
+          <script>
+            function validatePass55(){
+              if(document.getElementById('password55').value == 'canoodlemynoodle'){
                 return true;
               }else{
                 alert('Wrong Password! You are not Julia!');
