@@ -1027,6 +1027,24 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 2/14/2021</h1>
+        <div class="box">
+          <h2>Enter password and click the picture THE SMOOCH to read: <input id='password56' type='password'  /></h2>
+          <a href="./Love Notes/2_14_2021.html"target="blank" onclick="javascript:return validatePass56()"><img src="./img/smooch.jpg"></a>
+          <script>
+            function validatePass56(){
+              if(document.getElementById('password56').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
     </div>
   </section>
 
