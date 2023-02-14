@@ -1135,6 +1135,24 @@
         </div>
       </article>
 
+      <article id="main-col">
+        <h1 class="page-title">Love Letter: 02/14/2023</h1>
+        <div class="box">
+          <h2>Enter password and click the picture of us to read: <input id='password62' type='password'  /></h2>
+          <a href="./Love Notes/02_14_2023.html"target="blank" onclick="javascript:return validatePass62()"><img src="./img/fwog.jpg"></a>
+          <script>
+            function validatePass62(){
+              if(document.getElementById('password62').value == 'canoodlemynoodle'){
+                return true;
+              }else{
+                alert('Wrong Password! You are not Julia!');
+                return false;
+              }
+            }
+          </script>
+        </div>
+      </article>
+
     </div>
   </section>
 
